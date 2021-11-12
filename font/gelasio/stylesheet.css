@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gelasio';
+    src: url('Gelasio-Medium.eot');
+    src: local('Gelasio Medium'), local('Gelasio-Medium'),
+        url('Gelasio-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Gelasio-Medium.woff2') format('woff2'),
+        url('Gelasio-Medium.woff') format('woff'),
+        url('Gelasio-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gelasio';
+    src: url('Gelasio-Bold.eot');
+    src: local('Gelasio Bold'), local('Gelasio-Bold'),
+        url('Gelasio-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Gelasio-Bold.woff2') format('woff2'),
+        url('Gelasio-Bold.woff') format('woff'),
+        url('Gelasio-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
