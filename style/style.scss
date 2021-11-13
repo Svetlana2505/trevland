@@ -230,28 +230,25 @@ h6 {
         // display: flex;
         // justify-content: space-between;
         margin-bottom: 52px;
+        overflow: hidden;
 
-
-        .item {
-            right: 0;
-        }
 
         .card-slider {
             display: flex;
             justify-content: space-between;
+            position: relative;
+            transition: 2s ease;
             left: 0;
             right: 0;
 
             .card {
-                width: 262px;
                 box-sizing: border-box;
-                // position: absolute;
+                margin-right: 72px;
     
                 .offers-card-img {
-    
-                    img {
-                        border-radius: 10px;
-                    }
+                    border-radius: 10px;
+                    width: 262px;
+                    overflow: hidden;
                 }
     
                 h4 {

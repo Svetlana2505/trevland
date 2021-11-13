@@ -1,11 +1,21 @@
-let slider = document.getElementById('card');
+let slider = document.getElementById('slider');
 let left = document.getElementById('left');
-let item = 0;
+let rignt = document.getElementById('rignt');
+let itemleft = 0;
+let itemrignt = 0;
 
 left.addEventListener('click',function(){
-    item = item -100
-    if(item < -800) {
-        item = 0
+    itemleft = itemleft -325
+    if(itemleft < -1300) {
+        itemleft = 0
     }
-    slider.style.left = item + 'px'
-})
+    slider.style.left = itemleft + 'px'
+});
+
+rignt.addEventListener('click',function(){
+    itemrignt = itemrignt +325
+    if(itemrignt > 0) {
+        itemrignt = -1300
+    }
+    slider.style.left = itemrignt + 'px'
+});

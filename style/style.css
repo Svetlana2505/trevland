@@ -160,19 +160,22 @@ h6 {
       margin: auto;
       text-align: center; }
   .offers-cads .line-card {
-    margin-bottom: 52px; }
-    .offers-cads .line-card .item {
-      right: 0; }
+    margin-bottom: 52px;
+    overflow: hidden; }
     .offers-cads .line-card .card-slider {
       display: flex;
       justify-content: space-between;
+      position: relative;
+      transition: 2s ease;
       left: 0;
       right: 0; }
       .offers-cads .line-card .card-slider .card {
-        width: 262px;
-        box-sizing: border-box; }
-        .offers-cads .line-card .card-slider .card .offers-card-img img {
-          border-radius: 10px; }
+        box-sizing: border-box;
+        margin-right: 72px; }
+        .offers-cads .line-card .card-slider .card .offers-card-img {
+          border-radius: 10px;
+          width: 262px;
+          overflow: hidden; }
         .offers-cads .line-card .card-slider .card h4 {
           font-family: 'Gelasio';
           font-weight: 500;
