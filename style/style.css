@@ -167,8 +167,7 @@ h6 {
       justify-content: space-between;
       position: relative;
       transition: 2s ease;
-      left: 0;
-      right: 0; }
+      left: 0; }
       .offers-cads .line-card .card-slider .card {
         box-sizing: border-box;
         margin-right: 72px; }
@@ -240,7 +239,8 @@ h6 {
         height: 5px;
         background: #C9453B;
         border-radius: 10px 10px;
-        margin: auto; }
+        position: relative;
+        left: 0; }
 
 .news .news-header {
   width: 581px;

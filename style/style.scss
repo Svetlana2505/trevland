@@ -239,7 +239,6 @@ h6 {
             position: relative;
             transition: 2s ease;
             left: 0;
-            right: 0;
 
             .card {
                 box-sizing: border-box;
@@ -348,7 +347,9 @@ h6 {
                 height: 5px;
                 background:#C9453B;
                 border-radius: 10px 10px;
-                margin: auto;
+                // margin: auto;
+                position: relative;
+                left: 0;
             }
         }
     }
