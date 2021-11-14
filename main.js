@@ -8,10 +8,10 @@ let itemline = 0;
 
 left.addEventListener('click',function(){
     itemleft = itemleft -325
-    itemline = itemline - 46;
+    itemline = itemline + 46;
     if(itemleft < -1300) {
         itemleft = -1300
-        itemline = 0
+        itemline = 180
     }
     slider.style.left = itemleft + 'px'
     item.style.left = itemline + 'px'
@@ -19,10 +19,10 @@ left.addEventListener('click',function(){
 
 rignt.addEventListener('click',function(){
     itemleft = itemleft + 325
-    itemline = itemline + 46;
+    itemline = itemline - 46;
     if(itemleft > 0) {
         itemleft = 0
-        itemline = 180
+        itemline = 0
     }
     slider.style.left = itemleft + 'px'
     item.style.left = itemline + 'px'
